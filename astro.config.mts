@@ -5,12 +5,12 @@ import icon from 'astro-icon';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://aSkycladObserver.github.io',
-  base: '/Novell-Portfolio',
+	site: 'https://aSkycladObserver.github.io',
+	base: '/Novell-Portfolio',
 
-  vite: {
-      plugins: [tailwindcss()],
+	vite: {
+		plugins: [tailwindcss()],
 	},
 
-  integrations: [icon()],
+	integrations: [icon()],
 });

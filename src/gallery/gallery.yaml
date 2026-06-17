@@ -1,13 +1,13 @@
 collections:
   - id: school
     name: School
-    description: "Collection of School related work"
+    description: 'Collection of School related work'
   - id: illustrations
     name: Illustrations
-    description: "This is a Test"
+    description: 'This is a Test'
   - id: midnight
     name: Midnight Dive
-    description: "My graduation project done at New3dge Concept Art"
+    description: 'My graduation project done at New3dge Concept Art'
 
 images:
   - path: school/Boel_Charadesign_01.jpg
@@ -69,7 +69,7 @@ images:
   - path: midnight/midnightdive-002.jpg
     meta:
       title: Nemo Sculler
-      description: Nemo is the shy yet knowledgeable hunter of the lot. He's the one that dragged his friend Astoria into their adventure. 
+      description: Nemo is the shy yet knowledgeable hunter of the lot. He's the one that dragged his friend Astoria into their adventure.
       collections:
         - midnight
   - path: midnight/midnightdive-003.jpg
@@ -81,7 +81,7 @@ images:
   - path: midnight/midnightdive-004.jpg
     meta:
       title: Nemo Sculler
-      description: A bunch of iterations for Nemo, starting with silhouettes explorations to color variations. 
+      description: A bunch of iterations for Nemo, starting with silhouettes explorations to color variations.
       collections:
         - midnight
   - path: midnight/midnightdive-005.jpg
@@ -93,7 +93,7 @@ images:
   - path: midnight/midnightdive-006.jpg
     meta:
       title: Astoria Lynch
-      description: 
+      description:
       collections:
         - midnight
   - path: midnight/midnightdive-007.jpg
@@ -117,13 +117,13 @@ images:
   - path: midnight/midnightdive-010.jpg
     meta:
       title: Hunter Tools
-      description: The first ideas I had for the ghost trap were traditional lanterns. It ended up changing quite a bit. 
+      description: The first ideas I had for the ghost trap were traditional lanterns. It ended up changing quite a bit.
       collections:
         - midnight
   - path: midnight/midnightdive-011.jpg
     meta:
       title: Sona
-      description: Sona is the friendly sidekick of the ghost hunters team. She was very fun to design !  
+      description: Sona is the friendly sidekick of the ghost hunters team. She was very fun to design !
       collections:
         - midnight
   - path: midnight/midnightdive-012.jpg
@@ -135,19 +135,18 @@ images:
   - path: midnight/midnightdive-013.jpg
     meta:
       title: Sona
-      description: A bunch of explorations I did right at the beginning of the project to establish the appearance of the ghosts in general. 
+      description: A bunch of explorations I did right at the beginning of the project to establish the appearance of the ghosts in general.
       collections:
         - midnight
   - path: midnight/midnightdive-014.jpg
     meta:
       title: The Banshee
-      description: The banshee is an enemy the ghost hunters team will have to defeat in order to save an inhabitant of Dunmoor. 
+      description: The banshee is an enemy the ghost hunters team will have to defeat in order to save an inhabitant of Dunmoor.
       collections:
         - midnight
   - path: midnight/midnightdive-015.jpg
     meta:
       title: The Banshee
-      description: My main inspirations for the banshee were the moray eel and the oarfish. I thought their ribbon-like bodies would fit the idea of a mourning veil in the wind. 
+      description: My main inspirations for the banshee were the moray eel and the oarfish. I thought their ribbon-like bodies would fit the idea of a mourning veil in the wind.
       collections:
         - midnight
-
