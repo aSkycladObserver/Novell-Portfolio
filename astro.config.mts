@@ -5,7 +5,7 @@ import icon from 'astro-icon';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://rockem.github.io',
+  site: 'https://aSkycladObserver.github.io',
   base: 'Novell-Portfolio',
 
   vite: {
