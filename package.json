@@ -20,7 +20,7 @@
 		"@types/node": "^22.14.0",
 		"@typescript-eslint/eslint-plugin": "^8.31.0",
 		"@typescript-eslint/parser": "^8.31.0",
-		"astro": "^5.8.1",
+		"astro": "^6.4.7",
 		"astro-eslint-parser": "^1.2.2",
 		"commander": "^13.1.0",
 		"eslint": "^9.25.1",
@@ -37,6 +37,13 @@
 		"prettier-plugin-astro": "^0.14.1",
 		"tailwindcss": "^4.0.14",
 		"tsx": "^4.19.3",
-		"vitest": "^3.1.1"
+		"vitest": "^4.1.9"
+	},
+	"overrides": {
+		"vite": "^7"
+	},
+	"dependencies": {
+		"@iconify-json/simple-icons": "^1.2.86",
+		"astro-icon": "^1.1.5"
 	}
 }
