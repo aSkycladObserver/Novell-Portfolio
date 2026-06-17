@@ -10,18 +10,7 @@ collections:
     description: 'My graduation project done at New3dge Concept Art'
 
 images:
-  - path: school/Boel_Charadesign_01.jpg
-    meta:
-      title: Wingspawn
-      description: Fairy Project.
-      collections:
-        - school
-  - path: school/Assignment_January.jpg
-    meta:
-      title: Aial
-      description: Research Project for school.
-      collections:
-        - school
+#Illustrations
   - path: illustrations/Felice_Portrait.png
     meta:
       title: Felice
@@ -60,12 +49,92 @@ images:
       collections:
         - illustrations
 
+  #School
+  - path: school/Boel_Charadesign_01.jpg
+    meta:
+      title: Wingspawn
+      description: Fairy Project.
+      collections:
+        - school
+        - featured
+  - path: school/Assignment_January.jpg
+    meta:
+      title: Aial
+      description: Research Project for school.
+      collections:
+        - school
+  - path: school/Professors_01.jpg
+    meta:
+      title: Magic Academy Staff
+      description: Professor Laertes is a minotaur often passing for a regular human. He teaches ancient literature and loves theatre. Miss O'Leander is a modern witch and the sweetest of botanist teacher.
+      collections:
+        - school
+        - featured
+  - path: school/Professors_02.jpg
+    meta:
+      title: O'Leander
+      description: Research for O'Leander, I wanted her to have a stylish outfit but ended up going for a nicer personality instead of a snob. 
+      collections:
+        - school
+  - path: school/Professors_03.jpg
+    meta:
+      title: Laertes
+      description:
+      collections:
+        - school
+  - path: school/egghart_01.jpg
+    meta:
+      title: Egghart 1
+      description: The cockatrice is Warrhen's family coat of arms, and as such Warrhen, knight and kitchen master extraordinaire, is always accompanied by his trusty companion Maurice. 
+      collections:
+        - school
+        - featured
+  - path: school/egghart_02.jpg
+    meta:
+      title: Egghart 2
+      description: Front and backview of Warrhen's design. 
+      collections:
+        - school
+  - path: school/egghart_03.jpg
+    meta:
+      title: Egghart 3
+      description: "Skin themes : Musketeer and Monster Hunter"
+      collections:
+        - school
+  - path: school/egghart_04.jpg
+    meta:
+      title: Egghart 4
+      description: "Skin themes : Parade uniform and Pastry chef"
+      collections:
+        - school
+  - path: school/egghart_05.jpg
+    meta:
+      title: "Egghart 5"
+      description: "A few iterations of the different skins. I focused on colors and finding variety in the details while sticking to the shapes and certain elements of the original design, so as to recognize the character."
+      collections:
+        - school
+  - path: school/egghart_06.jpg
+    meta:
+      title: Egghart Research 1
+      description: "Exploration for the main design, I wanted to mix the two ideas of a knight and a cook on the road, looking for rare ingredients while needing to fend for himself. "
+      collections:
+        - school
+  - path: school/egghart_07.jpg
+    meta:
+      title: Egghart Research 2
+      description: "The cockatrice was chosen very quickly as a house crest and familiar. The rooster elements were very fun to include in the designs."
+      collections:
+        - school
+
+
+#Midnight Dive
   - path: midnight/midnightdive-001.jpg
     meta:
       title: Nemo & Astoria
       description:
       collections:
         - midnight
+        - featured
   - path: midnight/midnightdive-002.jpg
     meta:
       title: Nemo Sculler
@@ -96,6 +165,7 @@ images:
       description:
       collections:
         - midnight
+        - featured
   - path: midnight/midnightdive-007.jpg
     meta:
       title: Astoria Lynch
@@ -138,15 +208,35 @@ images:
       description: A bunch of explorations I did right at the beginning of the project to establish the appearance of the ghosts in general.
       collections:
         - midnight
+        - featured
   - path: midnight/midnightdive-014.jpg
     meta:
       title: The Banshee
       description: The banshee is an enemy the ghost hunters team will have to defeat in order to save an inhabitant of Dunmoor.
       collections:
         - midnight
+        - featured
   - path: midnight/midnightdive-015.jpg
     meta:
       title: The Banshee
       description: My main inspirations for the banshee were the moray eel and the oarfish. I thought their ribbon-like bodies would fit the idea of a mourning veil in the wind.
+      collections:
+        - midnight
+  - path: midnight/midnightdive-016.jpg
+    meta:
+      title: Dunmoor Locals
+      description: "From left to right : a fisherman plagued by a school of sadness ghosts, a young boy haunted by angry piranhas, and last but not least the grieving nurse who's been the target of the banshee for years."
+      collections:
+        - midnight
+  - path: midnight/midnightdive-017.jpg
+    meta:
+      title: Dunmoor Locals
+      description:
+      collections:
+        - midnight
+  - path: midnight/midnightdive-018.jpg
+    meta:
+      title: Dunmoor Locals
+      description: A few explorations I did for the three types ! I enjoy working with silhouettes a lot, so once I find one that I enjoy most I dress 'em up.
       collections:
         - midnight
