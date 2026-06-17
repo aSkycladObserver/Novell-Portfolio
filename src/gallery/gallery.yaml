@@ -1,8 +1,14 @@
 collections:
   - id: school
     name: School
+    description: "Collection of School related work"
   - id: illustrations
     name: Illustrations
+    description: "This is a Test"
+  - id: midnight
+    name: Midnight Dive
+    description: "My graduation project done at New3dge Concept Art"
+
 images:
   - path: school/Boel_Charadesign_01.jpg
     meta:
@@ -10,28 +16,24 @@ images:
       description: Fairy Project.
       collections:
         - school
-    exif: {}
   - path: school/Assignment_January.jpg
     meta:
       title: Aial
       description: Research Project for school.
       collections:
         - school
-    exif: {}  
   - path: illustrations/Felice_Portrait.png
     meta:
       title: Felice
       description: Portrait of Felice.
       collections:
         - illustrations
-    exif: {}
   - path: illustrations/Hipponoe.png
     meta:
       title: Hipponoe
       description: Made for April Fools.
       collections:
         - illustrations
-    exif: {}
   - path: illustrations/Midnight_Cocktail.png
     meta:
       title: Midnight Cocktail
@@ -39,25 +41,113 @@ images:
       collections:
         - illustrations
         - featured
-    exif: {}
   - path: illustrations/Nyx_Niahm.png
     meta:
       title: Nyx & Niahm
       description: none
       collections:
         - illustrations
-    exif: {}
   - path: illustrations/Sky_Crow.png
     meta:
       title: Crow
       description: It is a Crow.
       collections:
         - illustrations
-    exif: {}
   - path: illustrations/TSL_Lineup.png
     meta:
       title: TSL Lineup
       description: none
       collections:
         - illustrations
-    exif: {}
+
+  - path: midnight/midnightdive-001.jpg
+    meta:
+      title: Nemo & Astoria
+      description:
+      collections:
+        - midnight
+  - path: midnight/midnightdive-002.jpg
+    meta:
+      title: Nemo Sculler
+      description: Nemo is the shy yet knowledgeable hunter of the lot. He's the one that dragged his friend Astoria into their adventure. 
+      collections:
+        - midnight
+  - path: midnight/midnightdive-003.jpg
+    meta:
+      title: Nemo Sculler
+      description:
+      collections:
+        - midnight
+  - path: midnight/midnightdive-004.jpg
+    meta:
+      title: Nemo Sculler
+      description: A bunch of iterations for Nemo, starting with silhouettes explorations to color variations. 
+      collections:
+        - midnight
+  - path: midnight/midnightdive-005.jpg
+    meta:
+      title: Astoria Lynch
+      description: Astoria is the cheery dynamic part of the duo. She's fearless and cannot help but be curious about the whole specter ordeal.
+      collections:
+        - midnight
+  - path: midnight/midnightdive-006.jpg
+    meta:
+      title: Astoria Lynch
+      description: 
+      collections:
+        - midnight
+  - path: midnight/midnightdive-007.jpg
+    meta:
+      title: Astoria Lynch
+      description: Iterations for Astoria. I also wanted to give her a shark theme like Nemo (with the tooth pendant), but ended up going for a crab instead.
+      collections:
+        - midnight
+  - path: midnight/midnightdive-008.jpg
+    meta:
+      title: Hunter Tools
+      description:
+      collections:
+        - midnight
+  - path: midnight/midnightdive-009.jpg
+    meta:
+      title: Hunter Tools
+      description:
+      collections:
+        - midnight
+  - path: midnight/midnightdive-010.jpg
+    meta:
+      title: Hunter Tools
+      description: The first ideas I had for the ghost trap were traditional lanterns. It ended up changing quite a bit. 
+      collections:
+        - midnight
+  - path: midnight/midnightdive-011.jpg
+    meta:
+      title: Sona
+      description: Sona is the friendly sidekick of the ghost hunters team. She was very fun to design !  
+      collections:
+        - midnight
+  - path: midnight/midnightdive-012.jpg
+    meta:
+      title: Sona
+      description:
+      collections:
+        - midnight
+  - path: midnight/midnightdive-013.jpg
+    meta:
+      title: Sona
+      description: A bunch of explorations I did right at the beginning of the project to establish the appearance of the ghosts in general. 
+      collections:
+        - midnight
+  - path: midnight/midnightdive-014.jpg
+    meta:
+      title: The Banshee
+      description: The banshee is an enemy the ghost hunters team will have to defeat in order to save an inhabitant of Dunmoor. 
+      collections:
+        - midnight
+  - path: midnight/midnightdive-015.jpg
+    meta:
+      title: The Banshee
+      description: My main inspirations for the banshee were the moray eel and the oarfish. I thought their ribbon-like bodies would fit the idea of a mourning veil in the wind. 
+      collections:
+        - midnight
+
