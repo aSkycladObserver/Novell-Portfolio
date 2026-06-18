@@ -1,51 +1,63 @@
 collections:
-  - id: school
-    name: School
-    description: 'Collection of School related work'
-  - id: illustrations
-    name: Illustrations
-    description: 'This is a Test'
   - id: midnight
     name: Midnight Dive
     description: 'My graduation project done at New3dge Concept Art'
+  - id: illustrations
+    name: Illustrations
+    description: 'A group of personal projects'
+  - id: school
+    name: School
+    description: 'Collection of School related work'
 
 images:
 #Illustrations
   - path: illustrations/Felice_Portrait.png
     meta:
       title: Felice
-      description: Portrait of Felice.
+      description:
       collections:
         - illustrations
   - path: illustrations/Hipponoe.png
     meta:
       title: Hipponoe
-      description: Made for April Fools.
+      description:
       collections:
         - illustrations
   - path: illustrations/Midnight_Cocktail.png
     meta:
       title: Midnight Cocktail
-      description: none
+      description:
       collections:
         - illustrations
         - featured
   - path: illustrations/Nyx_Niahm.png
     meta:
       title: Nyx & Niahm
-      description: none
+      description:
       collections:
         - illustrations
   - path: illustrations/Sky_Crow.png
     meta:
       title: Crow
-      description: It is a Crow.
+      description:
       collections:
         - illustrations
   - path: illustrations/TSL_Lineup.png
     meta:
       title: TSL Lineup
-      description: none
+      description:
+      collections:
+        - illustrations
+  - path: illustrations/Eishvan.png
+    meta:
+      title: Eishvan
+      description:
+      collections:
+        - illustrations
+  - path: illustrations/Eishvan_Pepper.png
+    meta:
+      title: Eishvan & Pepper
+      description:
       collections:
         - illustrations
 
@@ -53,14 +65,14 @@ images:
   - path: school/Boel_Charadesign_01.jpg
     meta:
       title: Wingspawn
-      description: Fairy Project.
+      description: "A project made during a class with Boell Oyino. The task was to create a lineup of three characters that belonged to different guilds / casts, but within the same faction. It was a good opportunity for me to bring one my favorite subject on the table : insects."
       collections:
         - school
         - featured
   - path: school/Assignment_January.jpg
     meta:
       title: Aial
-      description: Research Project for school.
+      description:
       collections:
         - school
   - path: school/Professors_01.jpg
@@ -123,6 +135,48 @@ images:
     meta:
       title: Egghart Research 2
       description: "The cockatrice was chosen very quickly as a house crest and familiar. The rooster elements were very fun to include in the designs."
+      collections:
+        - school
+  - path: school/Wasps_01.jpg
+    meta:
+      title: Inkeater Wasps
+      description: "Group of alien bugs / mobs from a faraway planet. They feed on INK, the planet's main resource, which gives them this blueish swellings."
+      collections:
+        - school
+  - path: school/Wasps_05.jpg
+    meta:
+      title: Inkeater Wasps 2
+      description: "Early exploration for the three types of creatures : I needed an aggressive mob, a friendly one and a boss / queen of the hive type. They all had to be part of the same family and influenced by the planet they live on."
+      collections:
+        - school
+  - path: school/Wasps_02.jpg
+    meta:
+      title: Inkeater Ink Keeper
+      description: "The friendly mostly inoffensive guy. Works as a feeder for the hive."
+      collections:
+        - school
+  - path: school/Wasps_03.jpg
+    meta:
+      title: Inkeater Marauder
+      description: "The marauder is my favorite of the bunch. It's the aggressive wasp-like mob that is the most present out of the hive."
+      collections:
+        - school
+  - path: school/Wasps_04.jpg
+    meta:
+      title: Inkeater Shieldmaiden
+      description: "Shieldmaidens are the bugs that were supposed to become queens, but failed in their growth and became sterile. Their size and strength still allows them to defend their hive."
+      collections:
+        - school
+  - path: school/Medievanimals_01.png
+    meta:
+      title: Medievanimals Colored
+      description: "Lineup of medieval humanoid animals."
+      collections:
+        - school
+  - path: school/Medievanimals_02.png
+    meta:
+      title: Medievanimals Lineart
+      description:
       collections:
         - school
 
@@ -228,6 +282,7 @@ images:
       description: "From left to right : a fisherman plagued by a school of sadness ghosts, a young boy haunted by angry piranhas, and last but not least the grieving nurse who's been the target of the banshee for years."
       collections:
         - midnight
+        - featured
   - path: midnight/midnightdive-017.jpg
     meta:
       title: Dunmoor Locals

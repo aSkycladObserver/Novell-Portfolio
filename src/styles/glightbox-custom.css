@@ -18,3 +18,43 @@
 	color: #ccc;
 	font-size: 0.875rem;
 }
+
+.glightbox-container {
+	backdrop-filter: blur(6px);
+}
+
+.glightbox-clean .gslide-description,
+.glightbox-clean .gslide-description * {
+	font-family: 'Inter', sans-serif !important;
+	font-size: 0.95rem;
+	color: rgba(141, 141, 141, 0.87) !important;
+	line-height: 1.6;
+	text-align: center;
+}
+
+.glightbox-clean .gslide-description {
+	background: rgba(0, 0, 0, 0.55) !important;
+	padding: 12px 18px;
+	border-radius: 0 0 10px 10px;
+	max-width: 60ch;
+	margin-inline: auto;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.gslide-media.gslide-image {
+	box-shadow: none !important;
+}
+
+.glightbox-clean .gslide-media {
+	max-height: 90vh !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.glightbox-clean .gslide-image img {
+	max-height: 90vh !important;
+	width: auto !important;
+	height: auto !important;
+	object-fit: contain;
+}

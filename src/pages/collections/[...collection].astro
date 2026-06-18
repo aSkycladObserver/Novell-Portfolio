@@ -3,13 +3,30 @@ import MainLayout from '../../layouts/MainLayout.astro';
 import PhotoGrid from '../../components/PhotoGrid.astro';
 import { getCollections, getImages } from '../../data/imageStore';
 
+function shuffle<T>(array: T[]): T[] {
+	const arr = [...array];
+
+	for (let i = arr.length - 1; i > 0; i--) {
+		const j = Math.floor(Math.random() * (i + 1));
+		[arr[i], arr[j]] = [arr[j], arr[i]];
+	}
+
+	return arr;
+}
+
 const allCollection = {
 	id: undefined,
 	name: 'All',
 };
 const collections = [allCollection, ...(await getCollections())];
 const { collection } = Astro.params;
-const images = await getImages(collection ? { collection } : {});
+
+const loadedImages = await getImages(collection ? { collection } : {});
+
+const images = collection
+	? loadedImages
+	: shuffle(loadedImages);
+
 const base = import.meta.env.BASE_URL;
 
 export const getStaticPaths = async () => {
@@ -31,7 +48,7 @@ export const getStaticPaths = async () => {
 				<p class="text-gray-600 max-w-xl mx-auto">
 					{
 						collections.find((c) => c.id === collection)?.description ??
-							'Explore my collection of work'
+							'Explore my collection of works'
 					}
 				</p>
 			</div>
