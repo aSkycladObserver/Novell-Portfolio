@@ -1,0 +1,232 @@
+---
+import MainLayout from '../../layouts/MainLayout.astro';
+import 'glightbox/dist/css/glightbox.css';
+import '../../styles/glightbox-custom.css';
+
+// Images
+import heroImage from '../../gallery/midnight/MD_Hero.jpg';
+import img001 from '../../gallery/midnight/midnightdive-001.jpg';
+
+// Characters
+import nemo002 from '../../gallery/midnight/midnightdive-002.jpg';
+import nemo003 from '../../gallery/midnight/midnightdive-003.jpg';
+import nemo004 from '../../gallery/midnight/midnightdive-004.jpg';
+import astoria005 from '../../gallery/midnight/midnightdive-005.jpg';
+import astoria006 from '../../gallery/midnight/midnightdive-006.jpg';
+import astoria007 from '../../gallery/midnight/midnightdive-007.jpg';
+import prop008 from '../../gallery/midnight/midnightdive-008.jpg';
+import prop009 from '../../gallery/midnight/midnightdive-009.jpg';
+import prop010 from '../../gallery/midnight/midnightdive-010.jpg';
+
+// Creatures
+import sona011 from '../../gallery/midnight/midnightdive-011.jpg';
+import sona012 from '../../gallery/midnight/midnightdive-012.jpg';
+import sona013 from '../../gallery/midnight/midnightdive-013.jpg';
+import banshee014 from '../../gallery/midnight/midnightdive-014.jpg';
+import banshee015 from '../../gallery/midnight/midnightdive-015.jpg';
+
+// Villagers
+import villager016 from '../../gallery/midnight/midnightdive-016.jpg';
+import villager017 from '../../gallery/midnight/midnightdive-017.jpg';
+import villager018 from '../../gallery/midnight/midnightdive-018.jpg';
+---
+
+<MainLayout>
+	<article class="max-w-5xl mx-auto pt-32 pb-28 px-6">
+
+		<!-- HEADER -->
+		<section class="mb-24">
+
+			<img
+				src={heroImage.src}
+				alt="Midnight Dive hero image"
+				class="rounded-xl w-full shadow-sm"
+			/>
+
+			<div class="text-center mt-8">
+				<h1 class="text-5xl font-bold mb-4">
+					Midnight Dive
+				</h1>
+
+				<p class="text-lg text-gray-600 max-w-2xl mx-auto">
+					A graduation project exploring ghost hunters, marine life, and folklore-inspired creature design.
+				</p>
+			</div>
+
+		</section>
+
+		<!-- OVERVIEW -->
+		<section class="mb-32">
+			<h2 class="text-3xl font-semibold mb-6 text-center">
+				Project Overview
+			</h2>
+
+			<p class="text-gray-700 text-center max-w-2xl mx-auto mb-10">
+				A narrative-driven exploration of underwater mythology and ghost hunting aesthetics.
+			</p>
+
+			<a href={img001.src} class="glightbox" data-gallery="overview">
+				<img src={img001.src} class="rounded-xl w-full shadow-sm" />
+			</a>
+		</section>
+
+		<!-- CHARACTERS -->
+		<section class="mb-32">
+			<h2 class="text-3xl font-semibold mb-6 text-center">
+				Characters
+			</h2>
+
+			<p class="text-gray-700 text-center max-w-2xl mx-auto mb-10">
+				Nemo Sculler and Astoria Lynch represent two opposing investigative approaches to the myth.
+			</p>
+
+			<div class="mb-14">
+				<div class="grid md:grid-cols-3 gap-4">
+					<a href={nemo002.src} class="glightbox" data-gallery="Characters">
+						<img src={nemo002.src} class="rounded-lg" />
+					</a>
+
+					<a href={nemo003.src} class="glightbox" data-gallery="Characters">
+						<img src={nemo003.src} class="rounded-lg" />
+					</a>
+
+					<a href={nemo004.src} class="glightbox" data-gallery="Characters">
+						<img src={nemo004.src} class="rounded-lg" />
+					</a>
+					<a href={astoria005.src} class="glightbox" data-gallery="Characters">
+						<img src={astoria005.src} class="rounded-lg" />
+					</a>
+
+					<a href={astoria006.src} class="glightbox" data-gallery="Characters">
+						<img src={astoria006.src} class="rounded-lg" />
+					</a>
+
+					<a href={astoria007.src} class="glightbox" data-gallery="Characters">
+						<img src={astoria007.src} class="rounded-lg" />
+					</a>
+					<a href={prop008.src} class="glightbox" data-gallery="Characters">
+						<img src={prop008.src} class="rounded-lg" />
+					</a>
+
+					<a href={prop009.src} class="glightbox" data-gallery="Characters">
+						<img src={prop009.src} class="rounded-lg" />
+					</a>
+
+					<a href={prop010.src} class="glightbox" data-gallery="Characters">
+						<img src={prop010.src} class="rounded-lg" />
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- CREATURES -->
+		<section class="mb-32">
+			<h2 class="text-3xl font-semibold mb-6 text-center">
+				Creatures
+			</h2>
+
+			<p class="text-gray-700 text-center max-w-2xl mx-auto mb-10">
+				Creature design exploring emotional symbolism through marine anatomy and folklore distortion.
+			</p>
+
+			<div class="grid md:grid-cols-1 gap-4">
+
+				<!-- SONA -->
+				<div class="w-full">
+					<div class="grid grid-cols-3 gap-4">
+						<a href={sona011.src} class="glightbox" data-gallery="Creatures">
+							<img src={sona011.src} class="rounded-lg w-full" />
+						</a>
+
+						<a href={sona012.src} class="glightbox" data-gallery="Creatures">
+							<img src={sona012.src} class="rounded-lg w-full" />
+						</a>
+
+						<a href={sona013.src} class="glightbox" data-gallery="Creatures">
+							<img src={sona013.src} class="rounded-lg w-full" />
+						</a>
+					</div>
+				</div>
+
+				<!-- BANSHEE -->
+				<div class="w-full flex justify-center">
+					<div class="grid grid-cols-2 gap-6 max-w-3xl w-full">
+						<a href={banshee014.src} class="glightbox" data-gallery="Creatures">
+							<img src={banshee014.src} class="rounded-lg w-full " />
+						</a>
+
+						<a href={banshee015.src} class="glightbox" data-gallery="Creatures">
+							<img src={banshee015.src} class="rounded-lg w-full" />
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- VILLAGERS -->
+		<section class="mb-32">
+			<h2 class="text-3xl font-semibold mb-6 text-center">
+				Villagers
+			</h2>
+
+			<p class="text-gray-700 text-center max-w-2xl mx-auto mb-10">
+				Each villager reflects a fragmented interpretation of the myth and its cultural impact.
+			</p>
+
+			<div class="grid grid-cols-2 gap-4">
+
+				<a
+					href={villager016.src}
+					class="glightbox col-span-2"
+					data-gallery="villagers"
+				>
+					<img src={villager016.src} class="rounded-lg w-full" />
+				</a>
+
+				<a href={villager017.src} class="glightbox" data-gallery="villagers">
+					<img src={villager017.src} class="rounded-lg w-full" />
+				</a>
+
+				<a href={villager018.src} class="glightbox" data-gallery="villagers">
+					<img src={villager018.src} class="rounded-lg w-full" />
+				</a>
+
+			</div>
+		</section>
+
+		<!-- CTA -->
+		<section class="text-center border-t pt-16">
+			<h3 class="text-xl font-semibold mb-4">
+				Explore more of this project
+			</h3>
+
+			<a
+				href="/collections/midnight"
+				class="inline-block px-6 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition"
+			>
+				View full gallery
+			</a>
+		</section>
+
+	</article>
+</MainLayout>
+
+<!-- LOCAL GLIGHTBOX INIT -->
+<script>
+	import GLightbox from 'glightbox';
+
+	const init = () => {
+		GLightbox({
+			selector: '.glightbox',
+			openEffect: 'zoom',
+			closeEffect: 'fade',
+		});
+	};
+
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', init);
+	} else {
+		init();
+	}
+</script>

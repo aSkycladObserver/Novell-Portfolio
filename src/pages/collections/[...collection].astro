@@ -34,8 +34,11 @@ export const getStaticPaths = async () => {
 		};
 	});
 };
----
 
+const currentCollection =
+	collections.find((c) => c.id === collection);
+---
+<title>Gallery - {currentCollection?.name ?? 'Gallery'}</title>
 <MainLayout>
 	<section class="py-16 pt-24">
 		<div class="container-custom">
