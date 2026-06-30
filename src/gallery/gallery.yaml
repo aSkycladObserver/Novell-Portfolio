@@ -1,3 +1,6 @@
+#Add image > Novellofilo > novell portfolio > src > gallery > doc
+
+
 collections:
   - id: midnight
     name: Midnight Dive
@@ -57,6 +60,12 @@ images:
   - path: illustrations/Eishvan_Pepper.png
     meta:
       title: Eishvan & Pepper
+      description:
+      collections:
+        - illustrations
+  - path: illustrations/Salka.png
+    meta:
+      title: Salka
       description:
       collections:
         - illustrations
