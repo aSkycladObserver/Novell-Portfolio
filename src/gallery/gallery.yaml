@@ -310,21 +310,21 @@ images:
         - midnight
 
 #Concept
-- path: concept/Circus_Coven_1.png
+  - path: concept/Circus_Coven_1.png
     meta:
       title: Cat Lady
       description:
       collections:
         - concept
         - featured
-- path: concept/Circus_Coven_2.png
+  - path: concept/Circus_Coven_2.png
     meta:
       title: Characters Lineup
       description:
       collections:
         - concept
         - featured
-- path: concept/Circus_Coven_3.gif
+  - path: concept/Circus_Coven_3.gif
     meta:
       title: Gif Process
       description:
