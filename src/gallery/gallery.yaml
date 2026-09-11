@@ -1,5 +1,5 @@
 #Add image > Novellofilo > novell portfolio > src > gallery > doc
-
+#Access gallery tabs : Github desktop > right click novelloportfolio > show in explorer > src > gallery
 
 collections:
   - id: midnight
@@ -7,11 +7,15 @@ collections:
     description: 'My graduation project done at New3dge Concept Art'
   - id: illustrations
     name: Illustrations
-    description: 'A group of personal projects'
+    description: 'A group of personal illustrations'
   - id: school
     name: School
     description: 'Collection of School related work'
-
+  - id: concept
+    name: Concept Art
+    description: 'A group of personal concepts'
+    
+    
 images:
 #Illustrations
   - path: illustrations/Felice_Portrait.png
@@ -304,3 +308,25 @@ images:
       description: A few explorations I did for the three types ! I enjoy working with silhouettes a lot, so once I find one that I enjoy most I dress 'em up.
       collections:
         - midnight
+
+#Concept
+- path: concept/Circus_Coven_1.png
+    meta:
+      title: Cat Lady
+      description:
+      collections:
+        - concept
+        - featured
+- path: concept/Circus_Coven_2.png
+    meta:
+      title: Characters Lineup
+      description:
+      collections:
+        - concept
+        - featured
+- path: concept/Circus_Coven_3.gif
+    meta:
+      title: Gif Process
+      description:
+      collections:
+        - concept
