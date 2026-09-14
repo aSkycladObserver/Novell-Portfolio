@@ -1,19 +1,20 @@
 #Add image > Novellofilo > novell portfolio > src > gallery > doc
 #Access gallery tabs : Github desktop > right click novelloportfolio > show in explorer > src > gallery
+#Upload images in gallery + here in images / Then save, then commit on github + push origin
 
 collections:
   - id: midnight
     name: Midnight Dive
     description: 'My graduation project done at New3dge Concept Art'
+  - id: concept
+    name: Circus Coven
+    description: 'A project with circus witches with mushroom hats'
   - id: illustrations
     name: Illustrations
     description: 'A group of personal illustrations'
   - id: school
     name: School
     description: 'Collection of School related work'
-  - id: concept
-    name: Concept Art
-    description: 'A group of personal concepts'
     
     
 images:
@@ -310,21 +311,21 @@ images:
         - midnight
 
 #Concept
-- path: concept/Circus_Coven_1.png
+  - path: concept/Circus_Coven_1.png
     meta:
       title: Cat Lady
       description:
       collections:
         - concept
         - featured
-- path: concept/Circus_Coven_2.png
+  - path: concept/Circus_Coven_2.png
     meta:
       title: Characters Lineup
       description:
       collections:
         - concept
         - featured
-- path: concept/Circus_Coven_3.gif
+  - path: concept/Circus_Coven_3.gif
     meta:
       title: Gif Process
       description:
